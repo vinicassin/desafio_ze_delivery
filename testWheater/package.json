@@ -1,0 +1,20 @@
+{
+  "name": "api_test_ze_delivery",
+  "version": "1.0.0",
+  "description": "Testes realizando na API de tempo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "jest": "^25.5.3",
+    "nodemon": "^2.0.3",
+    "sucrase": "^3.13.0",
+    "supertest": "^4.0.2"
+  }
+}
