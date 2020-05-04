@@ -1,0 +1,45 @@
+################## Botões
+
+btn_tenho_18_anos: "#age-gate-button-yes"
+btn_ver_produtos_disponiveis: "#address-details-button-continue"
+btn_15_uni: "#add-amount-15"
+btn_adicionar_ao_carrinho: "#add-product"
+btn_fechar_pedido: "#finish-order"
+btn_entrar_com_email: "#login-home-email-button-sign-in"
+btn_entrar: "#login-mail-button-sign-in"
+btn_selecionar_forma_pagamento: "#finish-order"
+
+################## Campos texto
+
+campo_insira_endereco: "#address-search-input-address"
+campo_endereco: "#fake-address-search-input"
+campo_numero_endereco: "#address-details-input-number"
+campo_email: "#login-mail-input-email"
+campo_senha: "#login-mail-input-password"
+
+################## Label
+
+label_endereco: li[itemid='google-address']
+label_produto: "#product-card"
+
+################## CheckBox
+
+check_nao_tenho_complemento: ".css-y5qwgr-text-checkbox-Checkbox"
+
+# Por padrão é interessante colocar o tipo de campo, depois o nome do campo, exemplos:
+
+# campo_nome: campo para texto.
+# label_pedido
+# btn_comprar: para botões
+# lnk_esqueci_email: para links
+
+############# ID e class tem 2 formas de serem mapeados, exemplos:
+###### ID
+# btn_one: button[id='btn_one']
+# btn_one: "#btn_one"
+
+##### Class, no primeiro exemplo você precisa passar todas as class's, cada espaço é a junção de uma, na segunda você pode passar uma ou todas, se passar todas é necessário colocar um ponto nos espaços.
+# btn_one: button[class='btn btn-lg btn-default']
+# btn_one: .btn.btn-lg.btn-default
+
+# Obs: sempre priorizar o ID, que é o identificador único do elemento na página.

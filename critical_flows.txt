@@ -1,0 +1,14 @@
+3 Principais fluxos da aplicação:
+
+Obs: Irei retirar o login pois já foi mostrada a importância deste fluxo na explicação do teste, só é possível realizar uma compra se estiver logado, então ele seria o primeiro.
+
+Fluxo 1: Finalizar uma compra - Será o fluxo principal, pois será ele quem trará renda para o app e também se não estiver funcionando trará uma possível frustração para o cliente que usar o app e não conseguir finalizar uma compra.
+
+Fluxo 2: Criação de conta - Sem a criação de conta não iremos captar novos clientes, apenas os antigos clientes vão conseguir comprar com o app, pois para fechar um pedido é necessário estar logado, e também vale ressaltar que se tivermos um bug logo no começo do fluxo a chance do usuário retornar a utilizar o app será baixa, pois ele já teve um experiencia ruim ao utilizar o app.
+
+Fluxo 3: Escolher/Alterar endereço - Acredito que é comum as pessoas estarem na casa de um amigo ou em um churrasco e acabar comprando pelo app, então é necessário estar alterando o endereço para o local que estamos, também se tiver um bug nesta feature é certo que o cliente não irá fechar o pedido pois não irá conseguir escolher o endereço de recebimento dos produtos. 
+
+
+
+
+
