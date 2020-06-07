@@ -6,7 +6,7 @@
 
 ## Linguagem de escrita dos cenários de teste: Gherkin-pt utilizando junto com a ferramenta Cucumber.
 
-Pattern: PageObject - https://martinfowler.com/bliki/PageObject.html
+Design Pattern: PageObject - https://martinfowler.com/bliki/PageObject.html
 
 ## Download/instalação Ruby:
 
@@ -45,7 +45,7 @@ Possibilidades de browser configurados, chrome, chrome_headless e firefox.
 
 Rodar por feature, passar o caminho, Ex:
 
-features/feature_exemplo_web_jump.feature
+features/feature_xxxxxx.feature
 
 Rodar utilizando as tags:
 
@@ -56,7 +56,7 @@ Rodar utilizando as tags:
 ## Roda apenas a feature especifica.
   cucumber chrome=true features\arquivo.feature
 ## Roda todos os cenarios com a tag botoes_iframe no browser chrome e ambiente de dev.
-  cucumber chrome=true -t @finalizar_compra
+  cucumber chrome=true -t @tag_criada
 
 ## Adicionar 2 informações no arquivo data/data.yml para conseguir rodar o projeto.
 
