@@ -52,7 +52,7 @@ Rodar utilizando as tags:
 -t @botoes_iframe
 
 
-# Exemplos de comando completo, não é necessário passar todos esses parâmetros, apenas cucumber pois o chrome=true está como default.
+## Exemplos de comando completo, não é necessário passar todos esses parâmetros, apenas cucumber pois o chrome=true está como default.
 ## Roda apenas a feature especifica.
   cucumber chrome=true features\arquivo.feature
 ## Roda todos os cenarios com a tag botoes_iframe no browser chrome e ambiente de dev.
